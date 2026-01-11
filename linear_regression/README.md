@@ -14,15 +14,9 @@ this repository implements linear regression from first principles, starting fro
 ---
 
 ## repository structure
- -theory.md   ->conceptual explanataion and assumption
- -src/
-   |- model.py
-   |- loss.py
-   |- gradients.py
-   |- optim.py
- 
- -notebook/
-    |-an experiment.ipynb
+- `theory.md` – Mathematical derivation and explanations
+- `linear_regression.py` – Core implementation (updated as learning progresses)
+- `experiments.ipynb` – Final experiments and visualizations
 
 names may change for the notebook
 ---
@@ -30,3 +24,5 @@ names may change for the notebook
 
 |    dates   |                                 updates                                          |
 |   9-01-26  | made the repo strcture and readme and theory files will moveonto proper work asap|
+|   12-01-26 | made the initial step of regression, utilizing theory from gilbert strang and    |
+|            | thus utilising least squares method and residuals to predict the equation of line|
