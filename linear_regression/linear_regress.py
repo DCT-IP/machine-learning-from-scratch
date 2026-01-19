@@ -10,9 +10,9 @@ def Normal_Eqn(X,Y):
     w = np.linalg.pinv(X)@Y
     return w
 
-def Normal_Eqn_wrtTranspose(X,Y):
-    w = np.linalg.inv(X.T@X) @ X.T @ Y
-    return w
+# def Normal_Eqn_wrtTranspose(X,Y):
+#     w = np.linalg.inv(X.T@X) @ X.T @ Y
+#     return w
 
 def residual(x,y,w):
     #calculates residuals
@@ -38,15 +38,15 @@ def main():
     print("On Orthogonality Check:-", OrthoCheck(X,Err))
     print("On trying out the equation with ", w, " as bias and weight and data as \n",X_test,"\n: ",predict(X_test,w))
     print("Comparison of using pinv(X)Y and using X^TX:-\n")
-    w1 = Normal_Eqn(X,Y_train)
-    w2 = Normal_Eqn_wrtTranspose(X,Y_train)
-    print("by pinv method:- ", w1)
-    print("by X^TX method ",w2)
-    print("Norm: ", np.linalg.norm(w1-w2))
-    print("Rank of X:-", np.linalg.matrix_rank(X))
-    print("Rank of X.X^T:-",np.linalg.matrix_rank(X.T@X))
 
 
 if __name__ == "__main__":
     main()
 
+
+# w2 = Normal_Eqn_wrtTranspose(X,Y_train)
+# print("by pinv method:- ", w1)
+# print("by X^TX method ",w2)
+# print("Norm: ", np.linalg.norm(w1-w2))
+# print("Rank of X:-", np.linalg.matrix_rank(X))
+# print("Rank of X.X^T:-",np.linalg.matrix_rank(X.T@X))
