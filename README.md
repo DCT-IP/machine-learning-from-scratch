@@ -10,8 +10,6 @@ The goal of this repo is to learn ML to understand mathematics and optimization.
 machine-learning-from-scratch/
  - linear_regression
  - logistic_regression
- - kmeans
- - pca
  - README.md
 
 ---
@@ -33,10 +31,3 @@ machine-learning-from-scratch/
   - Cross-entropy loss
   - Precision / recall analysis
 
-- K-Means Clustering
-  - Distance metrics
-  - Sensitivity to initialization
-
-- Principal Component Analysis (PCA)
-  - Eigenvalue-based implementation
-  - Dimensionality reduction analysis
