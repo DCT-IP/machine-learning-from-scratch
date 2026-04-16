@@ -22,10 +22,8 @@ This project demonstrates the application of logistic regression to classify mes
 ### Model Evaluation
 
 * Confusion matrix (TP, TN, FP, FN)
-* Accuracy
 * Precision
 * Recall
-* Precision–Recall tradeoff
 
 ### Text Processing (NLP Basics)
 
