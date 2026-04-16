@@ -90,6 +90,13 @@ Results may vary depending on preprocessing and randomness.
 
 ---
 
+## To run
+* Make a subfolder in the project named dataset(can change but need to change in the code too)
+* download the csv file using link above(others will work)
+* run all the cells after making sure requirements are filled
+
+---
+
 ## Notes
 
 * Implemented using NumPy, Pandas, and Matplotlib
