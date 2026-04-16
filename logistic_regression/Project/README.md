@@ -24,6 +24,7 @@ This project demonstrates the application of logistic regression to classify mes
 * Confusion matrix (TP, TN, FP, FN)
 * Precision
 * Recall
+* Accuracy
 
 ### Text Processing (NLP Basics)
 
