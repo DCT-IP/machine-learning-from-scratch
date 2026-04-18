@@ -20,7 +20,7 @@ machine-learning-from-scratch/
 
 ---
 
-## Implemented algorithms
+## Topics Covered
 - Linear Regression
   - Normal equation
   - Gradient descent
@@ -30,4 +30,11 @@ machine-learning-from-scratch/
   - Binary classification
   - Cross-entropy loss
   - Precision / recall analysis
+  - accuracy 
 
+- Data Pipelines
+  - Data Cleaning
+  - Encoding
+  - Train/Test Split
+
+--- 
