@@ -37,4 +37,8 @@ machine-learning-from-scratch/
   - Encoding
   - Train/Test Split
 
+- K Nearest Neighboor
+  - choosing appropriate K 
+  - using distance metrics
+  - accuracy measurements
 --- 
