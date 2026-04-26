@@ -41,4 +41,10 @@ machine-learning-from-scratch/
   - choosing appropriate K 
   - using distance metrics
   - accuracy measurements
+
+- Decision Trees
+  -Tree Structure
+  -Splitting (Gini/entropy)
+  -Depth vs Overfitting
+  
 --- 
