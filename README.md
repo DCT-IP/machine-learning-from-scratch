@@ -46,5 +46,9 @@ machine-learning-from-scratch/
   -Tree Structure
   -Splitting (Gini/entropy)
   -Depth vs Overfitting
-  
+
+- Neural Networks
+  -foward propogation 
+  -backward propogation
+  -activation function
 --- 
