@@ -91,3 +91,5 @@ how parameters should change to reduce error.
 
 ## Project
 
+A terrain classifier, using Kaggle csv data. Both own made Neural Network and PyTorch is made for comparison
+
